@@ -199,20 +199,21 @@ h1 {
     display: inline-block;
     margin-left: 80px;
 }
-@media screen and (min-width: 400px) and (max-width: 732px) {
+
+@media screen and (max-width: 700px) {
     .bannerimg {
         width: 900px;
         height: auto;
         object-fit: contain;
     }
-    
+
     .buyheadphone {
         font-weight: bolder;
         position: absolute;
         top: 15%;
         left: 7%;
     }
-    
+
     .Welcome {
         width: 300px;
         font-weight: bolder;
@@ -221,7 +222,7 @@ h1 {
         left: 7%;
         font-size: 35px;
     }
-    
+
     #shoppingnow {
         border-radius: 10px;
         background-color: white;
@@ -232,11 +233,11 @@ h1 {
         width: 200px;
         font-weight: bolder;
     }
-    
+
     #shoppingnow:hover {
         opacity: 80%;
     }
-    
+
     #blearnmore {
         position: absolute;
         width: 200px;
@@ -244,29 +245,37 @@ h1 {
         top: -10%;
         left: 50%;
     }
-    #yellowsection{
+
+    #yellowsection {
         width: 900px;
     }
-    #hurry{
+
+    #hurry {
         width: 900px;
     }
-    #numberdes{
+
+    #numberdes {
         width: 800px;
     }
-    #location{
+
+    #location {
         width: 900px;
     }
-    footer{
+
+    footer {
         width: 900px;
     }
-    .meetoutnew{
-        width: 900px; 
+
+    .meetoutnew {
+        width: 900px;
     }
-    #headphone{
-        width: 800px; 
+
+    #headphone {
+        width: 800px;
     }
-    #Findsection{
-        width: 800px; 
-        text-align:justify;
+
+    #Findsection {
+        width: 800px;
+        text-align: justify;
     }
 }
