@@ -165,8 +165,6 @@ nav {
     width: 200px;
     height: 50px;
     left: 80%;
-
-
 }
 
 #cardnumbers {
@@ -200,4 +198,75 @@ h1 {
 .footericons {
     display: inline-block;
     margin-left: 80px;
+}
+@media screen and (min-width: 400px) and (max-width: 732px) {
+    .bannerimg {
+        width: 900px;
+        height: auto;
+        object-fit: contain;
+    }
+    
+    .buyheadphone {
+        font-weight: bolder;
+        position: absolute;
+        top: 15%;
+        left: 7%;
+    }
+    
+    .Welcome {
+        width: 300px;
+        font-weight: bolder;
+        position: absolute;
+        top: 17%;
+        left: 7%;
+        font-size: 35px;
+    }
+    
+    #shoppingnow {
+        border-radius: 10px;
+        background-color: white;
+        color: black;
+        position: absolute;
+        top: 30%;
+        left: 7%;
+        width: 200px;
+        font-weight: bolder;
+    }
+    
+    #shoppingnow:hover {
+        opacity: 80%;
+    }
+    
+    #blearnmore {
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        top: -10%;
+        left: 50%;
+    }
+    #yellowsection{
+        width: 900px;
+    }
+    #hurry{
+        width: 900px;
+    }
+    #numberdes{
+        width: 800px;
+    }
+    #location{
+        width: 900px;
+    }
+    footer{
+        width: 900px;
+    }
+    .meetoutnew{
+        width: 900px; 
+    }
+    #headphone{
+        width: 800px; 
+    }
+    #Findsection{
+        width: 800px; 
+        text-align:justify;
+    }
 }
